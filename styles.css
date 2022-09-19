@@ -1,0 +1,159 @@
+div{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.primero{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #D9B991;
+}
+
+.segundo{
+    font-family: 'Montserrat','Arial';
+    background-color: #59402A;
+}
+
+.tercero{
+    font-family: 'Quicksand','Arial';    
+    background-color: #D9BBA0;
+}
+.cuarto{
+    font-family: 'Arvo','Arial';
+    background-color: #40302B;
+}
+.quinto{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #8C7D77;
+    color: #59402A;
+}
+
+.container{
+    color: #59402A;
+}
+
+.imagen{
+    border-radius: 90px;
+    width: 300px;
+    height: 300px;   
+    border: #3F302B solid 0.5px;
+}
+
+#row-servicios {
+    background: #3F302B;
+    height: 280px;
+}
+
+.row {
+    margin: 0;
+    color: #D9BB9F;
+}
+
+.imagenes2 {
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.container{
+    max-width: 1100px;
+}
+
+header {
+    background-image: url('./imagenes/fondo3.png');
+    background-size: hoover;
+    height: 600px;
+    position: relative;
+}
+
+header div ul {
+    color: #4F3129;
+    font-size: 30px;
+}
+
+.title-color{
+    color: #4F3129;
+}
+
+.title {
+    color: #4F3129;
+    font-size: 45px;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-20%);
+}   
+
+.btn{
+    background-color: #4F3129;
+    border-radius: 20px;
+    color: #D4966D;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 20px;
+}
+
+
+.iconContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.iconExplainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.iconExplaination h3{
+    width: 50%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.ourImageContent{
+    background-color: #40302B;
+    color: #D9BB9F;
+}
+
+.buttonWireframe{
+    border: #D9B991 1px solid;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #D9B991;
+    color: black;
+    font-size: 20px;
+}
+
+.buttonWireframe:hover{
+    color: #D9BB9F;
+    background-color: #59402A;
+}
+
+.imgContainer img{
+    border-radius: 50px;
+}
+
+
+.imgAnimation:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.301);
+    cursor: pointer;
+}
+
+.callToAction:hover{
+    background-color: #40302B;
+    cursor: pointer;
+}
+
+.callToAction{
+    border-radius: 15px;
+}
